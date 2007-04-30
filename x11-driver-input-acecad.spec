@@ -11,7 +11,7 @@ BuildRoot: %{_tmppath}/%{name}-root
 BuildRequires: x11-proto-devel >= 1.0.0
 BuildRequires: x11-server-devel >= 1.0.1
 BuildRequires: x11-util-macros >= 1.0.1
-BuildRequires: libsysfs2-devel
+BuildRequires: libsysfs-devel
 
 Conflicts: xorg-x11-server < 7.0
 
