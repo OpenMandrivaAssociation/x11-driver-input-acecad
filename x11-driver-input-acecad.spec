@@ -38,6 +38,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_libdir}/xorg/modules/input/acecad_drv.la
 %{_libdir}/xorg/modules/input/acecad_drv.so
-%{_mandir}/man4/acecad.4.bz2
+%{_mandir}/man4/acecad.*
 
 
