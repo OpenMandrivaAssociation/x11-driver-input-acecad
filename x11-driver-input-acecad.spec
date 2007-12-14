@@ -7,7 +7,7 @@ Group: Development/X11
 ########################################################################
 # git clone git//git.mandriva.com/people/pcpa/xorg/drivers/xf86-input-acecad  xorg/drivers/xf86-input-acecad
 # cd xorg/drivers/xf86-input-acecad
-# git-archive --format=tar --prefix=xf86-input-acecad-1.2.1 master | bzip2 -9 > xf86-input-acecad-1.2.1.tar.bz2
+# git-archive --format=tar --prefix=xf86-input-acecad-1.2.1/ master | bzip2 -9 > xf86-input-acecad-1.2.1.tar.bz2
 ########################################################################
 Source0: xf86-input-acecad-%{version}.tar.bz2
 License: GPLv2+ and MIT
