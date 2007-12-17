@@ -4,6 +4,7 @@ Release: %mkrel 2
 Summary: X.org input driver for Acecad Flair devices
 Group: Development/X11
 
+URL: http://xorg.freedesktop.org
 # Note: checking out tag xf86-input-acecad-1.2.1
 ########################################################################
 # git clone git://git.mandriva.com/people/pcpa/xorg/drivers/xf86-input-acecad  xorg/drivers/xf86-input-acecad
