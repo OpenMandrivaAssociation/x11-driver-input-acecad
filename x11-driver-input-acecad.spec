@@ -11,7 +11,6 @@ Group: Development/X11
 ########################################################################
 Source0: xf86-input-acecad-%{version}.tar.bz2
 License: GPLv2+ and MIT
-BuildRoot: %{_tmppath}/%{name}-root
 
 ########################################################################
 # git-format-patch master..origin/mandriva+gpl
