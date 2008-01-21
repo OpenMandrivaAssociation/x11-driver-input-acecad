@@ -20,14 +20,12 @@ Patch2: 0002-acecad-do-our-own-scaling-with-USB-device-since-it.patch
 Patch3: 0003-acecad-set-type_name-to-XI_TABLET.patch
 Patch4: 0004-acecad-fake-device-limits-screen-limits-in-xserv.patch
 Patch5: 0005-Update-for-new-policy-of-hidden-symbols-and-common-m.patch
+Patch6: 0006-Dont-dlopen-libsysfs.so-just-link-with-it-and-call.patch
 ########################################################################
 BuildRequires: x11-util-macros		>= 1.1.5-4mdk
-#BuildRequires: gcc			>= 4.2.2
-#BuildRequires: glibc-devel		>= 2.7.1
 BuildRequires: x11-proto-devel		>= 7.3
 BuildRequires: libpixman-1-devel	>= 0.9.6
 BuildRequires: libsysfs-devel
-#>= 2.1.0
 BuildRequires: x11-server-devel		>= 1.4
 Conflicts: xorg-x11-server < 7.0
 
@@ -42,6 +40,7 @@ Acecad is an Xorg input driver for Acecad Flair devices.
 %patch3 -p1
 %patch4 -p1
 %patch5 -p1
+%patch6 -p1
 
 %build
 autoreconf -ifs
