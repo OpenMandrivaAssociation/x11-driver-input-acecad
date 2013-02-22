@@ -21,6 +21,7 @@ Acecad is an Xorg input driver for Acecad Flair devices.
 
 %prep
 %setup -qn xf86-input-acecad-%{version}
+autoreconf -fiv
 
 %build
 %configure2_5x
