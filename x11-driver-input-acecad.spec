@@ -1,6 +1,6 @@
 Name:		x11-driver-input-acecad
 Version:	1.5.0
-Release:	13
+Release:	14
 Summary:	X.org input driver for Acecad Flair devices
 Group:		System/X11
 License:	MIT
